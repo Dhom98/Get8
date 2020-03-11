@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get 8</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--     Navigation bar  -->
+    <header>
+        <p class="page_header_title">get 8</p>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Play</a></li>
+                <li><a href="contact.html">Contact</a></li>  
+            </ul>
+        </nav>
+    </header>
+
+    <div class="game_wrapper">
+
+        <div class="question" id="question_container"></div>
+
+        <div class="options"> 
+            <ul id="options_list">
+                <li id="a1" onclick="button(this)"></li>
+                <li id="a2" onclick="button(this)"></li>
+                <li id="a3" onclick="button(this)"></li>
+                <li id="a4" onclick="button(this)"></li>
+            </ul>
+        </div>
+
+        <div class="score">
+            <div class="next">
+                <button type="button" onclick="next()" id="button">Next</button>
+            </div>
+            <div class="score-holder">
+                score : <span id="scoreHolder">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

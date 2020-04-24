@@ -15,7 +15,7 @@ var qBank = {
         {q: 'There are eight men sitting on a couch. Three legs break and six men leave. How many legs are remaining?', options: ['3', '4', '5', '6'], answer:3},
         {q: 'How many colors does a rainbow have?', options: ['6', '7', '8', '9'], answer:2},
         {q: 'What is the color of the blackbox (the device designed to record the sounds from a cockpit and withstand a plane crash)?', options: ['Black', 'Green', 'Grey', 'Orange'], answer:4},
-        {q: 'Who comes first the chicken or the egg? Explain!', options: ['Chicken','Egg','Both', 'No Answer'], answer:1},
+        {q: 'Who comes first the chicken or the egg? Explain!', options: ['Egg','Chicken','Both', 'No Answer'], answer:2},
         {q: 'If 2+3=8, 3+7=27, 4+5=32, 5+8=60, 6+7=72, Then 7+8 = ? hint: it is easy.', options: ['98', '86', '74', '82'], answer:1}, 
     ],
 

@@ -39,5 +39,5 @@ ___
 ### Get 8 came to life
 ___
 
-![Landing page](desktop/my first game (get 8)/Landing page.png)
+![Landing page](Landing page.png)
 
